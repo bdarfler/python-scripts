@@ -5,6 +5,9 @@ from math import *
 from xml.sax import saxutils
 import csv, sys
 
+# All commented methods were lifted from:
+# http://code.google.com/p/kmlcircle/
+
 #
 # Convert (x,y,z) on unit sphere
 # back to (long, lat)
